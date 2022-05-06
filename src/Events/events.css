@@ -1,0 +1,12 @@
+.myevents{
+    background-color: #F8F8F9;
+    padding: 2rem;
+}
+
+.myevents .getanimation:hover{
+    transform: scale(1.11);
+    transition: 1s;
+}
+.myevents .getanimation{
+    transition: 1s;
+}

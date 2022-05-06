@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App-bottom{
+  background-color: #282c34;
+  color: #656262;
+} 
+
+.App-bottom:hover{
+  color: #fff;
+} 
+.ourachi{
+  background-color: #F8F8F9;
+}
+.ourachi .ourachicer{
+  transition: 1s;
+}
+.ourachi .ourachicer:hover{
+    transform: scale(1.5);
+}
+.icon12{
+  color: #046799;
+}  
+.myhome{
+  background: url('./image/home1.jpg') 100%;
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.bannerContent{
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 120px;
+    position: relative;
+    text-align: center;
+    z-index: 501;
+}
+
+.ieee-cs{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px 0 #4174d5;
+}
+
+.ieee{
+  font-size: 4rem;
+}
+.bannerH1{
+  font-weight: 600;
+}
+.computer-society{
+  font-size: 1.55rem;
+  letter-spacing: 2px;
+  line-height: 101%;
+  margin-left: 20px;
+}
+.society{
+  transform: scaleX(1.32);
+}
+.sbc {
+  color: #4174d5;
+  text-shadow: 2px 2px 0 #2f5900;
+}
+.bannerH1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.bannerDivider {
+  background-color: #000000cc;
+  height: 2px;
+  margin: .5rem 0;
+  width: 50%;
+}
+.leading-university {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.banner-about-us-btn {
+  margin-top: 2rem;
+}
+
+.pill-fill-btn {
+  background-color: #4174d5;
+  border: .125rem solid #4174d5;
+  border-radius: 2rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 0px;
+  padding: 1.4rem 2.5rem;
+  text-decoration: none;
+  transition: all .2s ease;
+}
